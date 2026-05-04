@@ -40,3 +40,48 @@
 .read-the-docs {
   color: #888;
 }
+
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+  min-height: 100vh;
+}
+
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+  min-height: 100vh;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.2s;
+}
+
+button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+select {
+  padding: 8px 12px;
+  margin: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
